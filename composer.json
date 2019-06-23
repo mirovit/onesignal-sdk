@@ -1,5 +1,5 @@
 {
-    "name": "vitanov/onesignal",
+    "name": "mirovit/onesignal",
     "description": "PHP Wrapper for using the OneSignal API.",
     "require": {
         "php": ">=5.5.0",

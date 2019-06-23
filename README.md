@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/vitanov/onesignal-sdk.svg?branch=master)](https://travis-ci.org/vitanov/onesignal-sdk)
+[![Build Status](https://travis-ci.org/mirovit/onesignal-sdk.svg?branch=master)](https://travis-ci.org/mirovit/onesignal-sdk)
 
 # OneSignal API
 
@@ -11,7 +11,7 @@ Still work-in-progress.
 Using [Composer](http://getcomposer.org):
 
 ```
-composer require vitanov/onesignal-sdk
+composer require mirovit/onesignal-sdk
 ```
 
 ## Contribution

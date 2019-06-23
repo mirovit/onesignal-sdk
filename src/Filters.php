@@ -43,6 +43,11 @@ class Filters implements Arrayable
         return $this;
     }
 
+    public function hasFilters()
+    {
+        return count($this->filters) > 0;
+    }
+
     public function andWhere()
     {
         $this->filters[] = ['operator' => 'AND'];

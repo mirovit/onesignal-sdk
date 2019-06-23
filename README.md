@@ -11,7 +11,7 @@ Still work-in-progress.
 Using [Composer](http://getcomposer.org):
 
 ```
-composer require mirovit/onesignal-sdk
+composer require mirovit/onesignal
 ```
 
 ## Contribution

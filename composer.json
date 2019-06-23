@@ -1,0 +1,25 @@
+{
+    "name": "vitanov/onesignal",
+    "description": "PHP Wrapper for using the OneSignal API.",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "6.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miroslav Vitanov",
+            "email": "mvvitanov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mirovit\\OneSignal\\": "src/",
+            "Mirovit\\OneSignal\\Tests\\": "tests/"
+        }
+    }
+}

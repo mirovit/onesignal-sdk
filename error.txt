@@ -1,0 +1,752 @@
+GuzzleHttp\Exception\ClientException::__set_state(array(
+   'request' => 
+  GuzzleHttp\Psr7\Request::__set_state(array(
+     'method' => 'GET',
+     'requestTarget' => NULL,
+     'uri' => 
+    GuzzleHttp\Psr7\Uri::__set_state(array(
+       'scheme' => 'https',
+       'userInfo' => '',
+       'host' => 'onesignal.com',
+       'port' => NULL,
+       'path' => '/api/v1/apps',
+       'query' => '',
+       'fragment' => '',
+    )),
+     'headers' => 
+    array (
+      'Authorization' => 
+      array (
+        0 => 'Basic NmFjNDk5NmEtZWY4ZS00NjY2LWJkNzgtMDQyOTUxMTI5NzIy',
+      ),
+      'Content-Type' => 
+      array (
+        0 => 'application/json',
+      ),
+      'User-Agent' => 
+      array (
+        0 => 'GuzzleHttp/6.2.1 curl/7.54.0 PHP/7.1.23',
+      ),
+      'Host' => 
+      array (
+        0 => 'onesignal.com',
+      ),
+    ),
+     'headerNames' => 
+    array (
+      'authorization' => 'Authorization',
+      'content-type' => 'Content-Type',
+      'user-agent' => 'User-Agent',
+      'host' => 'Host',
+    ),
+     'protocol' => '1.1',
+     'stream' => 
+    GuzzleHttp\Psr7\Stream::__set_state(array(
+       'stream' => NULL,
+       'size' => 0,
+       'seekable' => true,
+       'readable' => true,
+       'writable' => true,
+       'uri' => 'php://temp',
+       'customMetadata' => 
+      array (
+      ),
+    )),
+  )),
+   'response' => 
+  GuzzleHttp\Psr7\Response::__set_state(array(
+     'reasonPhrase' => 'Bad Request',
+     'statusCode' => 400,
+     'headers' => 
+    array (
+      'Date' => 
+      array (
+        0 => 'Sun, 23 Jun 2019 12:26:29 GMT',
+      ),
+      'Content-Type' => 
+      array (
+        0 => 'application/json; charset=utf-8',
+      ),
+      'Transfer-Encoding' => 
+      array (
+        0 => 'chunked',
+      ),
+      'Connection' => 
+      array (
+        0 => 'keep-alive',
+      ),
+      'Set-Cookie' => 
+      array (
+        0 => '__cfduid=d747f26304d0298f30806650c5406af431561292789; expires=Mon, 22-Jun-20 12:26:29 GMT; path=/; domain=.onesignal.com; HttpOnly',
+      ),
+      'Status' => 
+      array (
+        0 => '400 Bad Request',
+      ),
+      'Cache-Control' => 
+      array (
+        0 => 'no-cache',
+      ),
+      'Access-Control-Allow-Origin' => 
+      array (
+        0 => '*',
+      ),
+      'X-XSS-Protection' => 
+      array (
+        0 => '1; mode=block',
+      ),
+      'X-Request-Id' => 
+      array (
+        0 => '39d79c34-e74d-437e-b42f-b66f1cf93878',
+      ),
+      'Access-Control-Allow-Headers' => 
+      array (
+        0 => 'SDK-Version',
+      ),
+      'X-Runtime' => 
+      array (
+        0 => '0.005540',
+      ),
+      'X-Frame-Options' => 
+      array (
+        0 => 'SAMEORIGIN',
+      ),
+      'X-Content-Type-Options' => 
+      array (
+        0 => 'nosniff',
+      ),
+      'X-Powered-By' => 
+      array (
+        0 => 'Phusion Passenger 5.3.2',
+      ),
+      'Expect-CT' => 
+      array (
+        0 => 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+      ),
+      'Server' => 
+      array (
+        0 => 'cloudflare',
+      ),
+      'CF-RAY' => 
+      array (
+        0 => '4eb6735e3c08d22c-SOF',
+      ),
+    ),
+     'headerNames' => 
+    array (
+      'date' => 'Date',
+      'content-type' => 'Content-Type',
+      'transfer-encoding' => 'Transfer-Encoding',
+      'connection' => 'Connection',
+      'set-cookie' => 'Set-Cookie',
+      'status' => 'Status',
+      'cache-control' => 'Cache-Control',
+      'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+      'x-xss-protection' => 'X-XSS-Protection',
+      'x-request-id' => 'X-Request-Id',
+      'access-control-allow-headers' => 'Access-Control-Allow-Headers',
+      'x-runtime' => 'X-Runtime',
+      'x-frame-options' => 'X-Frame-Options',
+      'x-content-type-options' => 'X-Content-Type-Options',
+      'x-powered-by' => 'X-Powered-By',
+      'expect-ct' => 'Expect-CT',
+      'server' => 'Server',
+      'cf-ray' => 'CF-RAY',
+    ),
+     'protocol' => '1.1',
+     'stream' => 
+    GuzzleHttp\Psr7\Stream::__set_state(array(
+       'stream' => NULL,
+       'size' => 238,
+       'seekable' => true,
+       'readable' => true,
+       'writable' => true,
+       'uri' => 'php://temp',
+       'customMetadata' => 
+      array (
+      ),
+    )),
+  )),
+   'handlerContext' => 
+  array (
+  ),
+   'message' => 'Client error: `GET https://onesignal.com/api/v1/apps` resulted in a `400 Bad Request` response:
+{"errors":["Please include a case-sensitive header of Authorization: Basic \\u003cYOUR-USER-AUTH-KEY-HERE\\u003e with a va (truncated...)
+',
+   'string' => '',
+   'code' => 400,
+   'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php',
+   'line' => 111,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/guzzle/src/Middleware.php',
+      'line' => 65,
+      'function' => 'create',
+      'class' => 'GuzzleHttp\\Exception\\RequestException',
+      'type' => '::',
+      'args' => 
+      array (
+        0 => 
+        GuzzleHttp\Psr7\Request::__set_state(array(
+           'method' => 'GET',
+           'requestTarget' => NULL,
+           'uri' => 
+          GuzzleHttp\Psr7\Uri::__set_state(array(
+             'scheme' => 'https',
+             'userInfo' => '',
+             'host' => 'onesignal.com',
+             'port' => NULL,
+             'path' => '/api/v1/apps',
+             'query' => '',
+             'fragment' => '',
+          )),
+           'headers' => 
+          array (
+            'Authorization' => 
+            array (
+              0 => 'Basic NmFjNDk5NmEtZWY4ZS00NjY2LWJkNzgtMDQyOTUxMTI5NzIy',
+            ),
+            'Content-Type' => 
+            array (
+              0 => 'application/json',
+            ),
+            'User-Agent' => 
+            array (
+              0 => 'GuzzleHttp/6.2.1 curl/7.54.0 PHP/7.1.23',
+            ),
+            'Host' => 
+            array (
+              0 => 'onesignal.com',
+            ),
+          ),
+           'headerNames' => 
+          array (
+            'authorization' => 'Authorization',
+            'content-type' => 'Content-Type',
+            'user-agent' => 'User-Agent',
+            'host' => 'Host',
+          ),
+           'protocol' => '1.1',
+           'stream' => 
+          GuzzleHttp\Psr7\Stream::__set_state(array(
+             'stream' => NULL,
+             'size' => 0,
+             'seekable' => true,
+             'readable' => true,
+             'writable' => true,
+             'uri' => 'php://temp',
+             'customMetadata' => 
+            array (
+            ),
+          )),
+        )),
+        1 => 
+        GuzzleHttp\Psr7\Response::__set_state(array(
+           'reasonPhrase' => 'Bad Request',
+           'statusCode' => 400,
+           'headers' => 
+          array (
+            'Date' => 
+            array (
+              0 => 'Sun, 23 Jun 2019 12:26:29 GMT',
+            ),
+            'Content-Type' => 
+            array (
+              0 => 'application/json; charset=utf-8',
+            ),
+            'Transfer-Encoding' => 
+            array (
+              0 => 'chunked',
+            ),
+            'Connection' => 
+            array (
+              0 => 'keep-alive',
+            ),
+            'Set-Cookie' => 
+            array (
+              0 => '__cfduid=d747f26304d0298f30806650c5406af431561292789; expires=Mon, 22-Jun-20 12:26:29 GMT; path=/; domain=.onesignal.com; HttpOnly',
+            ),
+            'Status' => 
+            array (
+              0 => '400 Bad Request',
+            ),
+            'Cache-Control' => 
+            array (
+              0 => 'no-cache',
+            ),
+            'Access-Control-Allow-Origin' => 
+            array (
+              0 => '*',
+            ),
+            'X-XSS-Protection' => 
+            array (
+              0 => '1; mode=block',
+            ),
+            'X-Request-Id' => 
+            array (
+              0 => '39d79c34-e74d-437e-b42f-b66f1cf93878',
+            ),
+            'Access-Control-Allow-Headers' => 
+            array (
+              0 => 'SDK-Version',
+            ),
+            'X-Runtime' => 
+            array (
+              0 => '0.005540',
+            ),
+            'X-Frame-Options' => 
+            array (
+              0 => 'SAMEORIGIN',
+            ),
+            'X-Content-Type-Options' => 
+            array (
+              0 => 'nosniff',
+            ),
+            'X-Powered-By' => 
+            array (
+              0 => 'Phusion Passenger 5.3.2',
+            ),
+            'Expect-CT' => 
+            array (
+              0 => 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+            ),
+            'Server' => 
+            array (
+              0 => 'cloudflare',
+            ),
+            'CF-RAY' => 
+            array (
+              0 => '4eb6735e3c08d22c-SOF',
+            ),
+          ),
+           'headerNames' => 
+          array (
+            'date' => 'Date',
+            'content-type' => 'Content-Type',
+            'transfer-encoding' => 'Transfer-Encoding',
+            'connection' => 'Connection',
+            'set-cookie' => 'Set-Cookie',
+            'status' => 'Status',
+            'cache-control' => 'Cache-Control',
+            'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+            'x-xss-protection' => 'X-XSS-Protection',
+            'x-request-id' => 'X-Request-Id',
+            'access-control-allow-headers' => 'Access-Control-Allow-Headers',
+            'x-runtime' => 'X-Runtime',
+            'x-frame-options' => 'X-Frame-Options',
+            'x-content-type-options' => 'X-Content-Type-Options',
+            'x-powered-by' => 'X-Powered-By',
+            'expect-ct' => 'Expect-CT',
+            'server' => 'Server',
+            'cf-ray' => 'CF-RAY',
+          ),
+           'protocol' => '1.1',
+           'stream' => 
+          GuzzleHttp\Psr7\Stream::__set_state(array(
+             'stream' => NULL,
+             'size' => 238,
+             'seekable' => true,
+             'readable' => true,
+             'writable' => true,
+             'uri' => 'php://temp',
+             'customMetadata' => 
+            array (
+            ),
+          )),
+        )),
+      ),
+    ),
+    1 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 203,
+      'function' => 'GuzzleHttp\\{closure}',
+      'class' => 'GuzzleHttp\\Middleware',
+      'type' => '::',
+      'args' => 
+      array (
+        0 => 
+        GuzzleHttp\Psr7\Response::__set_state(array(
+           'reasonPhrase' => 'Bad Request',
+           'statusCode' => 400,
+           'headers' => 
+          array (
+            'Date' => 
+            array (
+              0 => 'Sun, 23 Jun 2019 12:26:29 GMT',
+            ),
+            'Content-Type' => 
+            array (
+              0 => 'application/json; charset=utf-8',
+            ),
+            'Transfer-Encoding' => 
+            array (
+              0 => 'chunked',
+            ),
+            'Connection' => 
+            array (
+              0 => 'keep-alive',
+            ),
+            'Set-Cookie' => 
+            array (
+              0 => '__cfduid=d747f26304d0298f30806650c5406af431561292789; expires=Mon, 22-Jun-20 12:26:29 GMT; path=/; domain=.onesignal.com; HttpOnly',
+            ),
+            'Status' => 
+            array (
+              0 => '400 Bad Request',
+            ),
+            'Cache-Control' => 
+            array (
+              0 => 'no-cache',
+            ),
+            'Access-Control-Allow-Origin' => 
+            array (
+              0 => '*',
+            ),
+            'X-XSS-Protection' => 
+            array (
+              0 => '1; mode=block',
+            ),
+            'X-Request-Id' => 
+            array (
+              0 => '39d79c34-e74d-437e-b42f-b66f1cf93878',
+            ),
+            'Access-Control-Allow-Headers' => 
+            array (
+              0 => 'SDK-Version',
+            ),
+            'X-Runtime' => 
+            array (
+              0 => '0.005540',
+            ),
+            'X-Frame-Options' => 
+            array (
+              0 => 'SAMEORIGIN',
+            ),
+            'X-Content-Type-Options' => 
+            array (
+              0 => 'nosniff',
+            ),
+            'X-Powered-By' => 
+            array (
+              0 => 'Phusion Passenger 5.3.2',
+            ),
+            'Expect-CT' => 
+            array (
+              0 => 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+            ),
+            'Server' => 
+            array (
+              0 => 'cloudflare',
+            ),
+            'CF-RAY' => 
+            array (
+              0 => '4eb6735e3c08d22c-SOF',
+            ),
+          ),
+           'headerNames' => 
+          array (
+            'date' => 'Date',
+            'content-type' => 'Content-Type',
+            'transfer-encoding' => 'Transfer-Encoding',
+            'connection' => 'Connection',
+            'set-cookie' => 'Set-Cookie',
+            'status' => 'Status',
+            'cache-control' => 'Cache-Control',
+            'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+            'x-xss-protection' => 'X-XSS-Protection',
+            'x-request-id' => 'X-Request-Id',
+            'access-control-allow-headers' => 'Access-Control-Allow-Headers',
+            'x-runtime' => 'X-Runtime',
+            'x-frame-options' => 'X-Frame-Options',
+            'x-content-type-options' => 'X-Content-Type-Options',
+            'x-powered-by' => 'X-Powered-By',
+            'expect-ct' => 'Expect-CT',
+            'server' => 'Server',
+            'cf-ray' => 'CF-RAY',
+          ),
+           'protocol' => '1.1',
+           'stream' => 
+          GuzzleHttp\Psr7\Stream::__set_state(array(
+             'stream' => NULL,
+             'size' => 238,
+             'seekable' => true,
+             'readable' => true,
+             'writable' => true,
+             'uri' => 'php://temp',
+             'customMetadata' => 
+            array (
+            ),
+          )),
+        )),
+      ),
+    ),
+    2 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 156,
+      'function' => 'callHandler',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '::',
+      'args' => 
+      array (
+        0 => 1,
+        1 => 
+        GuzzleHttp\Psr7\Response::__set_state(array(
+           'reasonPhrase' => 'Bad Request',
+           'statusCode' => 400,
+           'headers' => 
+          array (
+            'Date' => 
+            array (
+              0 => 'Sun, 23 Jun 2019 12:26:29 GMT',
+            ),
+            'Content-Type' => 
+            array (
+              0 => 'application/json; charset=utf-8',
+            ),
+            'Transfer-Encoding' => 
+            array (
+              0 => 'chunked',
+            ),
+            'Connection' => 
+            array (
+              0 => 'keep-alive',
+            ),
+            'Set-Cookie' => 
+            array (
+              0 => '__cfduid=d747f26304d0298f30806650c5406af431561292789; expires=Mon, 22-Jun-20 12:26:29 GMT; path=/; domain=.onesignal.com; HttpOnly',
+            ),
+            'Status' => 
+            array (
+              0 => '400 Bad Request',
+            ),
+            'Cache-Control' => 
+            array (
+              0 => 'no-cache',
+            ),
+            'Access-Control-Allow-Origin' => 
+            array (
+              0 => '*',
+            ),
+            'X-XSS-Protection' => 
+            array (
+              0 => '1; mode=block',
+            ),
+            'X-Request-Id' => 
+            array (
+              0 => '39d79c34-e74d-437e-b42f-b66f1cf93878',
+            ),
+            'Access-Control-Allow-Headers' => 
+            array (
+              0 => 'SDK-Version',
+            ),
+            'X-Runtime' => 
+            array (
+              0 => '0.005540',
+            ),
+            'X-Frame-Options' => 
+            array (
+              0 => 'SAMEORIGIN',
+            ),
+            'X-Content-Type-Options' => 
+            array (
+              0 => 'nosniff',
+            ),
+            'X-Powered-By' => 
+            array (
+              0 => 'Phusion Passenger 5.3.2',
+            ),
+            'Expect-CT' => 
+            array (
+              0 => 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+            ),
+            'Server' => 
+            array (
+              0 => 'cloudflare',
+            ),
+            'CF-RAY' => 
+            array (
+              0 => '4eb6735e3c08d22c-SOF',
+            ),
+          ),
+           'headerNames' => 
+          array (
+            'date' => 'Date',
+            'content-type' => 'Content-Type',
+            'transfer-encoding' => 'Transfer-Encoding',
+            'connection' => 'Connection',
+            'set-cookie' => 'Set-Cookie',
+            'status' => 'Status',
+            'cache-control' => 'Cache-Control',
+            'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+            'x-xss-protection' => 'X-XSS-Protection',
+            'x-request-id' => 'X-Request-Id',
+            'access-control-allow-headers' => 'Access-Control-Allow-Headers',
+            'x-runtime' => 'X-Runtime',
+            'x-frame-options' => 'X-Frame-Options',
+            'x-content-type-options' => 'X-Content-Type-Options',
+            'x-powered-by' => 'X-Powered-By',
+            'expect-ct' => 'Expect-CT',
+            'server' => 'Server',
+            'cf-ray' => 'CF-RAY',
+          ),
+           'protocol' => '1.1',
+           'stream' => 
+          GuzzleHttp\Psr7\Stream::__set_state(array(
+             'stream' => NULL,
+             'size' => 238,
+             'seekable' => true,
+             'readable' => true,
+             'writable' => true,
+             'uri' => 'php://temp',
+             'customMetadata' => 
+            array (
+            ),
+          )),
+        )),
+        2 => 
+        array (
+          0 => 
+          GuzzleHttp\Promise\Promise::__set_state(array(
+             'state' => 'rejected',
+             'result' => NULL,
+             'cancelFn' => NULL,
+             'waitFn' => NULL,
+             'waitList' => NULL,
+             'handlers' => NULL,
+          )),
+          1 => 
+          Closure::__set_state(array(
+          )),
+          2 => NULL,
+        ),
+      ),
+    ),
+    3 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/TaskQueue.php',
+      'line' => 47,
+      'function' => 'GuzzleHttp\\Promise\\{closure}',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '::',
+      'args' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 246,
+      'function' => 'run',
+      'class' => 'GuzzleHttp\\Promise\\TaskQueue',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => true,
+      ),
+    ),
+    5 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 223,
+      'function' => 'invokeWaitFn',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    6 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 267,
+      'function' => 'waitIfPending',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 225,
+      'function' => 'invokeWaitList',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    8 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/promises/src/Promise.php',
+      'line' => 62,
+      'function' => 'waitIfPending',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    9 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/guzzle/src/Client.php',
+      'line' => 129,
+      'function' => 'wait',
+      'class' => 'GuzzleHttp\\Promise\\Promise',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    10 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/vendor/guzzlehttp/guzzle/src/Client.php',
+      'line' => 87,
+      'function' => 'request',
+      'class' => 'GuzzleHttp\\Client',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'get',
+        1 => 'https://onesignal.com/api/v1/apps',
+        2 => 
+        array (
+          'synchronous' => true,
+        ),
+      ),
+    ),
+    11 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/src/Endpoints/Traits/ListsResource.php',
+      'line' => 18,
+      'function' => '__call',
+      'class' => 'GuzzleHttp\\Client',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'get',
+        1 => 
+        array (
+          0 => 'https://onesignal.com/api/v1/apps',
+        ),
+      ),
+    ),
+    12 => 
+    array (
+      'file' => '/Users/mirovit/Code/onesignal-sdk/index.php',
+      'line' => 10,
+      'function' => 'all',
+      'class' => 'Mirovit\\OneSignal\\Endpoints\\AppsEndpoint',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+  ),
+   'previous' => NULL,
+))
